@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>과목 추천 프로그램</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="mb-3">과목 추천 프로그램</h1>
+        <div id="subjects">
+            <h3 class="mb-3">추천할 과목</h3>
+            <ul id="subject-list" class="list-group">
+                <li class="list-group-item">국어</li>
+                <li class="list-group-item">수학</li>
+                <li class="list-group-item">영어</li>
+                <li class="list-group-item">한국사</li>
+                <li class="list-group-item">사회</li>
+                <li class="list-group-item">과학</li>
+            </ul>
+        </div>
+        <button id="recommend-button" class="btn btn-primary mt-3">과목 추천 받기</button>
+    </div>
+    <div id="result" class="text-center mb-4">
+        <h3 class="mb-3">추천된 과목</h3>
+        <p id="recommended-subject" class="h4"></p>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

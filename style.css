@@ -1,0 +1,8 @@
+/* Custom styles */
+body {
+    background-color: #f0f0f0;
+}
+
+#result {
+    display: none; /* 결과는 초기에 숨겨둡니다. */
+}
